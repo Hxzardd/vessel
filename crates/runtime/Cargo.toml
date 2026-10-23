@@ -1,0 +1,10 @@
+[package]
+name = "runtime"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+namespaces = { path = "../namespaces" }
+storage = { path = "../storage"}
+nix = { version = "0.27", features = ["signal"] }
+uuid = { version = "1", features = ["v4"] }

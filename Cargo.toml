@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "cmd/vessel", "cmd/vesseld", "crates/api",
+    "crates/namespaces",
+    "crates/runtime", 
+    "crates/storage"]
+
+resolver = "2"
